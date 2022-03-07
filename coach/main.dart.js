@@ -23895,10 +23895,10 @@ _.db="day"
 _.dx=b
 _.dy=c
 _.fr=""},
-t5(){var s=A.dV(!1),r=A.alO(""),q=A.alO(J.c2(window.sessionStorage.getItem("username"))),p=t.Wo
-p=new A.yq(s,r,q,A.a([],t.EH),A.dY(t.X,t.xW),new A.dR(p),new A.dR(p),!1,!1)
-p.lk()
-return p},
+t5(){var s=t.Wo
+s=new A.yq(A.dV(!1),A.alO(""),A.alO(J.c2(window.sessionStorage.getItem("username"))),A.a([],t.EH),A.dY(t.X,t.xW),new A.dR(s),new A.dR(s),!1,!1)
+s.lk()
+return s},
 yq:function yq(a,b,c,d,e,f,g,h,i){var _=this
 _.db=a
 _.dx=b
@@ -88314,7 +88314,11 @@ if(J.h(J.C(m.a,"s"),!0)){window.sessionStorage.setItem("username",J.c2(J.C(J.C(m
 window.sessionStorage.setItem("email",J.c2(J.C(J.C(m.a,"p"),"e")))
 window.sessionStorage.setItem("id",J.c2(J.C(J.C(m.a,"p"),"id")))
 window.sessionStorage.setItem("jwt",J.c2(J.C(m.a,"jwt")))
-n.db.db.sj(0,!0)
+k=n.db
+j=window.sessionStorage.getItem("username")
+if(j==null)j=""
+k.dy.sj(0,j)
+k.db.sj(0,!0)
 A.aFA($.S(),"/home",f)}else{k=$.S()
 j=t.p
 i=A.ar(A.a([A.D("\ub85c\uadf8\uc778 \uc2e4\ud328",null,null,null,null,null,null,null,null)],j),B.j,B.a9,B.h)
