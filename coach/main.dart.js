@@ -86528,25 +86528,25 @@ A.f4.prototype={
 gh0(){var s=this.z
 if(s.b)return B.b.M(s.d,B.b.az(A.bC(0,0,0,Date.now()-s.e.a,0,0).a,1000))
 return s.d},
-a_x(a){var s,r=this,q=null,p="assets/group/member/",o="ic_user_fire.png",n="ic_user_smoke.png",m="ic_user_sweat.png",l="ic_user_normal.png",k=r.z
+a_x(a){var s,r=this,q=null,p="assets/group/member/",o="ic_user_fire.png",n="ic_user_smoke.png",m="ic_user_sweat.png",l="ic_user_on.png",k=r.z
 if(k.b){if(k.c)s="assets/group/member/ic_user_use_app.png"
 else switch(a){case"day":if(B.b.hg(r.gh0(),36e6))k=o
-else if(B.b.hg(r.gh0(),216e5))k=n
+else if(B.b.hg(r.gh0(),252e5))k=n
 else k=B.b.hg(r.gh0(),108e5)?m:l
 s=p+k
 break
 case"week":if(B.b.hg(r.gh0(),126e6))k=o
-else if(B.b.hg(r.gh0(),756e5))k=n
+else if(B.b.hg(r.gh0(),882e5))k=n
 else k=B.b.hg(r.gh0(),378e5)?m:l
 s=p+k
 break
 case"month":if(B.b.hg(r.gh0(),54e7))k=o
-else if(B.b.hg(r.gh0(),324e6))k=n
+else if(B.b.hg(r.gh0(),378e6))k=n
 else k=B.b.hg(r.gh0(),162e6)?m:l
 s=p+k
 break
 default:if(B.b.hg(r.gh0(),36e6))k=o
-else if(B.b.hg(r.gh0(),216e5))k=n
+else if(B.b.hg(r.gh0(),252e5))k=n
 else k=B.b.hg(r.gh0(),108e5)?m:l
 s=p+k}return A.cR(A.aa(A.lI(new A.iK(s),B.bb,q),82,82),q,q)}else{k=B.b.az(A.bC(0,0,0,Date.now()-k.f.a,0,0).a,1000)
 return A.cR(A.aa(A.lI(new A.iK(k<36e5?"assets/group/member/ic_user_out.png":"assets/group/member/ic_user_off.png"),B.TU,q),82,82),q,q)}}}
